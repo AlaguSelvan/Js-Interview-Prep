@@ -5,11 +5,18 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<!-- <input type="text" onkeyup="getData()" /> -->
 	<input type="text" onkeyup="betterFunction()" />
+	<div>
+		<p>Type Ahead</p>
+		<input type="text" name="" id="search" placeholder="Enter Keyword" class="search"/>
+		<ul id="suggestions" class="suggestions"></ul>
+	</div>
 	<script src="./debounce.js"></script>
 	<script src="./function.js"></script>
+	<script src="./typeahead.js"></script>
 </body>
 </html>
